@@ -1,36 +1,130 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 EISGA YUVA AI Accelerator
 
-## Getting Started
+**India's Premier Enterprise AI & Generative AI Mastery Fellowship Platform**
 
-First, run the development server:
+An end-to-end modern educational bootcamp and learning management platform engineered with Next.js, React 19, TypeScript, and Tailwind CSS. The platform features an intelligent two-factor drip-feed progression engine, in-browser WebAssembly Python execution sandbox, interactive quizzes, automated verifiable digital credentials with cryptographic SHA-256 signatures, and role-based access for trainees, trainers, and administrators.
 
+---
+
+## ✨ Key Features
+
+### 1. ⏱️ 2-Factor Drip Feed Content Engine
+- **Prerequisite Quiz Score (≥60%)**: Trainees must pass the preceding week's assessment before advancing.
+- **7-Day Time Lock**: Calculates exact remaining days/hours from level enrollment date.
+- **Time Offset Simulator**: Built-in fast-forward tool in the UI for instant testing and demonstration of unlock states.
+
+### 2. 🐍 In-Browser Python Sandbox (Pyodide WebAssembly)
+- Execute Python and NumPy code directly inside the browser client without needing backend compute instances.
+- Preloaded with sample data science code snippets, instant console outputs, and error handling.
+
+### 3. 📜 Verifiable Digital Certificates
+- Automated certificate issuance upon completing all level requirements (100% week unlock & passing scores).
+- Generates standard certificate IDs (e.g. `EYA-2026-L1-...`) with SHA-256 cryptographic verification hashes.
+- Public `/verify/[certId]` verification portal with live QR codes and grade badges.
+
+### 4. 💳 Dynamic UPI Payment Simulator & Clearinghouse
+- Dynamic QR code generation with UPI intent strings (`upi://pay?pa=...`).
+- Clearinghouse verification system for manual and automated transaction approvals with instant webhook triggers.
+
+### 5. 👥 Role-Based Portals & Dashboards
+- **Trainee Portal**: Interactive curriculum timeline, live timers, quiz master, billing history, and certificate wallet.
+- **Trainer Dashboard**: Cohort progress analytics, performance distribution, and trainee engagement tracking.
+- **Office Admin**: Transaction clearinghouse, UTR approvals, and cohort enrollment management.
+- **Superadmin**: Global system controls, user role assignments, audit logs, and system settings.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js 16 (Turbopack, App Router)](https://nextjs.org/)
+- **UI / Styling**: [React 19](https://react.dev/), [Tailwind CSS v4](https://tailwindcss.com/), [Framer Motion](https://www.framer.com/motion/), [Lucide React](https://lucide.dev/)
+- **Runtime & Execution**: [Pyodide (WebAssembly Python)](https://pyodide.org/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Testing**: Node / TSX Engine Verification Test Suite
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18.x or later
+- npm, yarn, or pnpm
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/projelearn.git
+   cd projelearn
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Configure Environment Variables (Optional)**:
+   ```bash
+   cp .env.example .env.local
+   ```
+
+4. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 🧪 Testing & Verification
+
+Run the automated drip-feed and certificate assertion test suite:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm test
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Build for production:
+```bash
+npm run build
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔑 Demo Access Accounts
 
-## Learn More
+The platform includes preloaded mock accounts for all roles (selectable via one-click switch on the Login page):
 
-To learn more about Next.js, take a look at the following resources:
+| Role | Email | Password | Access Level |
+| :--- | :--- | :--- | :--- |
+| **Trainee** | `trainee@eisga.ai` | Any (Mock) | Level 1 Enrolled, Week 1 Quiz Passed |
+| **Trainer** | `trainer@eisga.ai` | Any (Mock) | Cohort Analytics & Trainee Tracking |
+| **Office Admin** | `admin@eisga.ai` | Any (Mock) | Transaction Clearinghouse & Enrollment |
+| **Super Admin** | `superadmin@eisga.ai` | Any (Mock) | Full System & User Configuration |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📁 Project Structure
 
-## Deploy on Vercel
+```text
+projelearn/
+├── public/
+│   └── data/
+│       └── master_bootcamp_curriculum.json   # 12-Week, 5-Level Master Curriculum
+├── scripts/
+│   ├── build_curriculum.js                   # Curriculum generator & compiler
+│   └── test_engine.js                        # Master assertion test suite
+├── src/
+│   ├── app/                                  # Next.js App Router (pages & API routes)
+│   ├── components/                           # Reusable UI, Sandbox, Payments & Layout
+│   ├── context/                              # Auth & Curriculum state providers
+│   ├── lib/                                  # Drip feed engine, Certificate generator, DB
+│   └── types/                                # TypeScript data models and definitions
+├── .env.example                              # Environment variable template
+└── package.json
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+
+This project is licensed under the MIT License.
