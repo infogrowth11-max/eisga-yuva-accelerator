@@ -1,0 +1,1388 @@
+{
+  "bootcamp": {
+    "id": "eisga-yuva-ai-accelerator",
+    "title": "EISGA YUVA AI Accelerator",
+    "subtitle": "India's Premier Enterprise AI & Generative AI Mastery Fellowship",
+    "totalWeeks": 12,
+    "totalLevels": 5,
+    "levels": [
+      {
+        "level": 1,
+        "name": "Level 1: AI Foundations & Computational Python",
+        "price": 999,
+        "originalPrice": 2999,
+        "tagline": "High-Performance Python, Vectorized NumPy, and Linear Algebra",
+        "weeks": [
+          1,
+          2
+        ],
+        "color": "#3b82f6",
+        "badge": "Foundations"
+      },
+      {
+        "level": 2,
+        "name": "Level 2: Deep Learning & Neural Vision",
+        "price": 1299,
+        "originalPrice": 3499,
+        "tagline": "PyTorch Architecture, Convolutional Networks & Vision Transformers",
+        "weeks": [
+          3,
+          4
+        ],
+        "color": "#8b5cf6",
+        "badge": "Vision & PyTorch"
+      },
+      {
+        "level": 3,
+        "name": "Level 3: NLP & Modern Transformer Architectures",
+        "price": 1499,
+        "originalPrice": 3999,
+        "tagline": "Attention Mechanisms, Tokenization, BERT & GPT Decoders",
+        "weeks": [
+          5,
+          6
+        ],
+        "color": "#ec4899",
+        "badge": "NLP & Attention"
+      },
+      {
+        "level": 4,
+        "name": "Level 4: Generative AI, RAG Systems & Autonomous Agents",
+        "price": 1699,
+        "originalPrice": 4499,
+        "tagline": "LangChain, LangGraph, Vector Embeddings & Multi-Agent Workflows",
+        "weeks": [
+          7,
+          8,
+          9
+        ],
+        "color": "#f59e0b",
+        "badge": "GenAI & RAG"
+      },
+      {
+        "level": 5,
+        "name": "Level 5: Enterprise LLM Deployment, Fine-Tuning & Production Capstone",
+        "price": 1999,
+        "originalPrice": 4999,
+        "tagline": "LoRA/QLoRA Fine-tuning, vLLM Inference Serving, Guardrails & Capstone",
+        "weeks": [
+          10,
+          11,
+          12
+        ],
+        "color": "#10b981",
+        "badge": "Enterprise AI"
+      }
+    ],
+    "modules": [
+      {
+        "week": 1,
+        "level": 1,
+        "title": "Week 1: High-Performance Python & Vectorized Computing for AI",
+        "slug": "week-1-curriculum",
+        "durationHours": 14,
+        "overview": "Master deep technical concepts in NumPy Vectorization, Strides & Memory Layouts with hands-on enterprise code implementations.",
+        "outcomes": [
+          "Deep understanding of NumPy Vectorization, Strides & Memory Layouts mathematical foundations and industry best practices",
+          "Production-grade implementation with profiling, test coverage, and GPU optimization",
+          "Real-world enterprise system patterns and edge-case handling",
+          "Passing the Week 1 Technical Certification Examination"
+        ],
+        "lessons": [
+          {
+            "id": "l1-1",
+            "title": "Theoretical Foundations & Mathematical Mechanics: NumPy Vectorization",
+            "duration": "48 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+            "notes": "Detailed examination of core mechanics, architectural diagrams, memory patterns, and algorithmic complexity.",
+            "codeSnippet": "# Enterprise implementation pattern for NumPy Vectorization\nimport sys\nprint('Initializing module: Week 1: High-Performance Python & Vectorized Computing for AI')\n"
+          },
+          {
+            "id": "l1-2",
+            "title": "Hands-on Implementation & Performance Optimization",
+            "duration": "52 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+            "notes": "Step-by-step code implementation with performance profiling, cache utilization, and error handling.",
+            "codeSnippet": "# Optimized pipeline\ndef execute_accelerator():\n    print('Executing accelerated pipeline for Week 1')\n    return {'status': 'success', 'week': 1}"
+          },
+          {
+            "id": "l1-3",
+            "title": "Enterprise Architecture, Scaling & Capstone Lab",
+            "duration": "40 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+            "notes": "Integrating into distributed enterprise pipelines, telemetry monitoring, and assessment review.",
+            "codeSnippet": "# Production integration\nclass EnterprisePipeline:\n    def __init__(self):\n        self.week = 1\n        self.active = True"
+          }
+        ],
+        "quiz": {
+          "id": "quiz-w1",
+          "week": 1,
+          "title": "Week 1 Certification Assessment: High-Performance Python & Vectorized Computing for AI",
+          "passingScore": 60,
+          "timeLimitMinutes": 15,
+          "questions": [
+            {
+              "id": "q1-1",
+              "question": "What is the primary architectural principle governing NumPy Vectorization in enterprise AI workloads?",
+              "options": [
+                "Maximizing hardware compute efficiency and minimizing memory I/O bottlenecks",
+                "Disabling floating point operations",
+                "Converting all algorithms to recursive single-threaded Python loops",
+                "Encrypting model weights in RAM"
+              ],
+              "correctIndex": 0,
+              "explanation": "Enterprise AI architectures prioritize memory bandwidth utilization (e.g. SRAM tiling, vectorization) to eliminate I/O stalls."
+            },
+            {
+              "id": "q1-2",
+              "question": "When scaling High-Performance Python & Vectorized Computing for AI, which evaluation metric is most critical for production reliability?",
+              "options": [
+                "Precision / Recall grounding and P95 latency guarantees",
+                "Total number of lines in the Python codebase",
+                "CSS animation frame rate",
+                "Number of comments in the code"
+              ],
+              "correctIndex": 0,
+              "explanation": "In production AI systems, accuracy/grounding combined with strict P95/P99 latency SLA defines system reliability."
+            },
+            {
+              "id": "q1-3",
+              "question": "What is the consequence of failing to validate input tensor dimensions or schema constraints?",
+              "options": [
+                "Silent dimensional broadcasting mismatches or unhandled runtime exceptions in forward pass",
+                "Immediate hardware destruction",
+                "The model automatically converts to Java",
+                "Learning rate doubles every millisecond"
+              ],
+              "correctIndex": 0,
+              "explanation": "Mismatched dimensions can either crash at runtime or silently broadcast incorrectly, producing erroneous silent output."
+            },
+            {
+              "id": "q1-4",
+              "question": "Which optimization technique yields the highest throughput gain for this module's workload?",
+              "options": [
+                "Batch vectorization, memory pinning, and fused kernel operations",
+                "Writing nested for-loops with sleep delays",
+                "Using 128-bit quadruple precision for all tensors",
+                "Running only on single core virtual CPUs"
+              ],
+              "correctIndex": 0,
+              "explanation": "Vectorization and kernel fusion maximize arithmetic intensity and minimize memory transfer overhead."
+            },
+            {
+              "id": "q1-5",
+              "question": "What score threshold is mandated by the EISGA YUVA 2-Factor Drip Feed Engine to unlock subsequent weeks?",
+              "options": [
+                "A minimum passing score of 60% on the weekly certification assessment",
+                "20% score",
+                "100% score only with zero errors",
+                "No quiz is required"
+              ],
+              "correctIndex": 0,
+              "explanation": "The Progression Rule strictly enforces >= 60% passing score on Week X-1 quiz along with the 7-day time lock."
+            }
+          ]
+        }
+      },
+      {
+        "week": 2,
+        "level": 1,
+        "title": "Week 2: Advanced Feature Engineering & Mathematical Optimization",
+        "slug": "week-2-curriculum",
+        "durationHours": 16,
+        "overview": "Master deep technical concepts in Gradient Descent, Adam, Hessians & Feature Pipelines with hands-on enterprise code implementations.",
+        "outcomes": [
+          "Deep understanding of Gradient Descent, Adam, Hessians & Feature Pipelines mathematical foundations and industry best practices",
+          "Production-grade implementation with profiling, test coverage, and GPU optimization",
+          "Real-world enterprise system patterns and edge-case handling",
+          "Passing the Week 2 Technical Certification Examination"
+        ],
+        "lessons": [
+          {
+            "id": "l2-1",
+            "title": "Theoretical Foundations & Mathematical Mechanics: Gradient Descent",
+            "duration": "48 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+            "notes": "Detailed examination of core mechanics, architectural diagrams, memory patterns, and algorithmic complexity.",
+            "codeSnippet": "# Enterprise implementation pattern for Gradient Descent\nimport sys\nprint('Initializing module: Week 2: Advanced Feature Engineering & Mathematical Optimization')\n"
+          },
+          {
+            "id": "l2-2",
+            "title": "Hands-on Implementation & Performance Optimization",
+            "duration": "52 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+            "notes": "Step-by-step code implementation with performance profiling, cache utilization, and error handling.",
+            "codeSnippet": "# Optimized pipeline\ndef execute_accelerator():\n    print('Executing accelerated pipeline for Week 2')\n    return {'status': 'success', 'week': 2}"
+          },
+          {
+            "id": "l2-3",
+            "title": "Enterprise Architecture, Scaling & Capstone Lab",
+            "duration": "40 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+            "notes": "Integrating into distributed enterprise pipelines, telemetry monitoring, and assessment review.",
+            "codeSnippet": "# Production integration\nclass EnterprisePipeline:\n    def __init__(self):\n        self.week = 2\n        self.active = True"
+          }
+        ],
+        "quiz": {
+          "id": "quiz-w2",
+          "week": 2,
+          "title": "Week 2 Certification Assessment: Advanced Feature Engineering & Mathematical Optimization",
+          "passingScore": 60,
+          "timeLimitMinutes": 15,
+          "questions": [
+            {
+              "id": "q2-1",
+              "question": "What is the primary architectural principle governing Gradient Descent in enterprise AI workloads?",
+              "options": [
+                "Maximizing hardware compute efficiency and minimizing memory I/O bottlenecks",
+                "Disabling floating point operations",
+                "Converting all algorithms to recursive single-threaded Python loops",
+                "Encrypting model weights in RAM"
+              ],
+              "correctIndex": 0,
+              "explanation": "Enterprise AI architectures prioritize memory bandwidth utilization (e.g. SRAM tiling, vectorization) to eliminate I/O stalls."
+            },
+            {
+              "id": "q2-2",
+              "question": "When scaling Advanced Feature Engineering & Mathematical Optimization, which evaluation metric is most critical for production reliability?",
+              "options": [
+                "Precision / Recall grounding and P95 latency guarantees",
+                "Total number of lines in the Python codebase",
+                "CSS animation frame rate",
+                "Number of comments in the code"
+              ],
+              "correctIndex": 0,
+              "explanation": "In production AI systems, accuracy/grounding combined with strict P95/P99 latency SLA defines system reliability."
+            },
+            {
+              "id": "q2-3",
+              "question": "What is the consequence of failing to validate input tensor dimensions or schema constraints?",
+              "options": [
+                "Silent dimensional broadcasting mismatches or unhandled runtime exceptions in forward pass",
+                "Immediate hardware destruction",
+                "The model automatically converts to Java",
+                "Learning rate doubles every millisecond"
+              ],
+              "correctIndex": 0,
+              "explanation": "Mismatched dimensions can either crash at runtime or silently broadcast incorrectly, producing erroneous silent output."
+            },
+            {
+              "id": "q2-4",
+              "question": "Which optimization technique yields the highest throughput gain for this module's workload?",
+              "options": [
+                "Batch vectorization, memory pinning, and fused kernel operations",
+                "Writing nested for-loops with sleep delays",
+                "Using 128-bit quadruple precision for all tensors",
+                "Running only on single core virtual CPUs"
+              ],
+              "correctIndex": 0,
+              "explanation": "Vectorization and kernel fusion maximize arithmetic intensity and minimize memory transfer overhead."
+            },
+            {
+              "id": "q2-5",
+              "question": "What score threshold is mandated by the EISGA YUVA 2-Factor Drip Feed Engine to unlock subsequent weeks?",
+              "options": [
+                "A minimum passing score of 60% on the weekly certification assessment",
+                "20% score",
+                "100% score only with zero errors",
+                "No quiz is required"
+              ],
+              "correctIndex": 0,
+              "explanation": "The Progression Rule strictly enforces >= 60% passing score on Week X-1 quiz along with the 7-day time lock."
+            }
+          ]
+        }
+      },
+      {
+        "week": 3,
+        "level": 2,
+        "title": "Week 3: Deep Neural Networks & Autograd Foundations in PyTorch",
+        "slug": "week-3-curriculum",
+        "durationHours": 15,
+        "overview": "Master deep technical concepts in Computation Graphs, Autograd, Mixed Precision AMP & CUDA Memory with hands-on enterprise code implementations.",
+        "outcomes": [
+          "Deep understanding of Computation Graphs, Autograd, Mixed Precision AMP & CUDA Memory mathematical foundations and industry best practices",
+          "Production-grade implementation with profiling, test coverage, and GPU optimization",
+          "Real-world enterprise system patterns and edge-case handling",
+          "Passing the Week 3 Technical Certification Examination"
+        ],
+        "lessons": [
+          {
+            "id": "l3-1",
+            "title": "Theoretical Foundations & Mathematical Mechanics: Computation Graphs",
+            "duration": "48 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+            "notes": "Detailed examination of core mechanics, architectural diagrams, memory patterns, and algorithmic complexity.",
+            "codeSnippet": "# Enterprise implementation pattern for Computation Graphs\nimport sys\nprint('Initializing module: Week 3: Deep Neural Networks & Autograd Foundations in PyTorch')\n"
+          },
+          {
+            "id": "l3-2",
+            "title": "Hands-on Implementation & Performance Optimization",
+            "duration": "52 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+            "notes": "Step-by-step code implementation with performance profiling, cache utilization, and error handling.",
+            "codeSnippet": "# Optimized pipeline\ndef execute_accelerator():\n    print('Executing accelerated pipeline for Week 3')\n    return {'status': 'success', 'week': 3}"
+          },
+          {
+            "id": "l3-3",
+            "title": "Enterprise Architecture, Scaling & Capstone Lab",
+            "duration": "40 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+            "notes": "Integrating into distributed enterprise pipelines, telemetry monitoring, and assessment review.",
+            "codeSnippet": "# Production integration\nclass EnterprisePipeline:\n    def __init__(self):\n        self.week = 3\n        self.active = True"
+          }
+        ],
+        "quiz": {
+          "id": "quiz-w3",
+          "week": 3,
+          "title": "Week 3 Certification Assessment: Deep Neural Networks & Autograd Foundations in PyTorch",
+          "passingScore": 60,
+          "timeLimitMinutes": 15,
+          "questions": [
+            {
+              "id": "q3-1",
+              "question": "What is the primary architectural principle governing Computation Graphs in enterprise AI workloads?",
+              "options": [
+                "Maximizing hardware compute efficiency and minimizing memory I/O bottlenecks",
+                "Disabling floating point operations",
+                "Converting all algorithms to recursive single-threaded Python loops",
+                "Encrypting model weights in RAM"
+              ],
+              "correctIndex": 0,
+              "explanation": "Enterprise AI architectures prioritize memory bandwidth utilization (e.g. SRAM tiling, vectorization) to eliminate I/O stalls."
+            },
+            {
+              "id": "q3-2",
+              "question": "When scaling Deep Neural Networks & Autograd Foundations in PyTorch, which evaluation metric is most critical for production reliability?",
+              "options": [
+                "Precision / Recall grounding and P95 latency guarantees",
+                "Total number of lines in the Python codebase",
+                "CSS animation frame rate",
+                "Number of comments in the code"
+              ],
+              "correctIndex": 0,
+              "explanation": "In production AI systems, accuracy/grounding combined with strict P95/P99 latency SLA defines system reliability."
+            },
+            {
+              "id": "q3-3",
+              "question": "What is the consequence of failing to validate input tensor dimensions or schema constraints?",
+              "options": [
+                "Silent dimensional broadcasting mismatches or unhandled runtime exceptions in forward pass",
+                "Immediate hardware destruction",
+                "The model automatically converts to Java",
+                "Learning rate doubles every millisecond"
+              ],
+              "correctIndex": 0,
+              "explanation": "Mismatched dimensions can either crash at runtime or silently broadcast incorrectly, producing erroneous silent output."
+            },
+            {
+              "id": "q3-4",
+              "question": "Which optimization technique yields the highest throughput gain for this module's workload?",
+              "options": [
+                "Batch vectorization, memory pinning, and fused kernel operations",
+                "Writing nested for-loops with sleep delays",
+                "Using 128-bit quadruple precision for all tensors",
+                "Running only on single core virtual CPUs"
+              ],
+              "correctIndex": 0,
+              "explanation": "Vectorization and kernel fusion maximize arithmetic intensity and minimize memory transfer overhead."
+            },
+            {
+              "id": "q3-5",
+              "question": "What score threshold is mandated by the EISGA YUVA 2-Factor Drip Feed Engine to unlock subsequent weeks?",
+              "options": [
+                "A minimum passing score of 60% on the weekly certification assessment",
+                "20% score",
+                "100% score only with zero errors",
+                "No quiz is required"
+              ],
+              "correctIndex": 0,
+              "explanation": "The Progression Rule strictly enforces >= 60% passing score on Week X-1 quiz along with the 7-day time lock."
+            }
+          ]
+        }
+      },
+      {
+        "week": 4,
+        "level": 2,
+        "title": "Week 4: Convolutional Networks, ResNets & Vision Transformers",
+        "slug": "week-4-curriculum",
+        "durationHours": 18,
+        "overview": "Master deep technical concepts in ResNet Residuals, Patch Embeddings & ViT Multi-Head Attention with hands-on enterprise code implementations.",
+        "outcomes": [
+          "Deep understanding of ResNet Residuals, Patch Embeddings & ViT Multi-Head Attention mathematical foundations and industry best practices",
+          "Production-grade implementation with profiling, test coverage, and GPU optimization",
+          "Real-world enterprise system patterns and edge-case handling",
+          "Passing the Week 4 Technical Certification Examination"
+        ],
+        "lessons": [
+          {
+            "id": "l4-1",
+            "title": "Theoretical Foundations & Mathematical Mechanics: ResNet Residuals",
+            "duration": "48 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+            "notes": "Detailed examination of core mechanics, architectural diagrams, memory patterns, and algorithmic complexity.",
+            "codeSnippet": "# Enterprise implementation pattern for ResNet Residuals\nimport sys\nprint('Initializing module: Week 4: Convolutional Networks, ResNets & Vision Transformers')\n"
+          },
+          {
+            "id": "l4-2",
+            "title": "Hands-on Implementation & Performance Optimization",
+            "duration": "52 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+            "notes": "Step-by-step code implementation with performance profiling, cache utilization, and error handling.",
+            "codeSnippet": "# Optimized pipeline\ndef execute_accelerator():\n    print('Executing accelerated pipeline for Week 4')\n    return {'status': 'success', 'week': 4}"
+          },
+          {
+            "id": "l4-3",
+            "title": "Enterprise Architecture, Scaling & Capstone Lab",
+            "duration": "40 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+            "notes": "Integrating into distributed enterprise pipelines, telemetry monitoring, and assessment review.",
+            "codeSnippet": "# Production integration\nclass EnterprisePipeline:\n    def __init__(self):\n        self.week = 4\n        self.active = True"
+          }
+        ],
+        "quiz": {
+          "id": "quiz-w4",
+          "week": 4,
+          "title": "Week 4 Certification Assessment: Convolutional Networks, ResNets & Vision Transformers",
+          "passingScore": 60,
+          "timeLimitMinutes": 15,
+          "questions": [
+            {
+              "id": "q4-1",
+              "question": "What is the primary architectural principle governing ResNet Residuals in enterprise AI workloads?",
+              "options": [
+                "Maximizing hardware compute efficiency and minimizing memory I/O bottlenecks",
+                "Disabling floating point operations",
+                "Converting all algorithms to recursive single-threaded Python loops",
+                "Encrypting model weights in RAM"
+              ],
+              "correctIndex": 0,
+              "explanation": "Enterprise AI architectures prioritize memory bandwidth utilization (e.g. SRAM tiling, vectorization) to eliminate I/O stalls."
+            },
+            {
+              "id": "q4-2",
+              "question": "When scaling Convolutional Networks, ResNets & Vision Transformers, which evaluation metric is most critical for production reliability?",
+              "options": [
+                "Precision / Recall grounding and P95 latency guarantees",
+                "Total number of lines in the Python codebase",
+                "CSS animation frame rate",
+                "Number of comments in the code"
+              ],
+              "correctIndex": 0,
+              "explanation": "In production AI systems, accuracy/grounding combined with strict P95/P99 latency SLA defines system reliability."
+            },
+            {
+              "id": "q4-3",
+              "question": "What is the consequence of failing to validate input tensor dimensions or schema constraints?",
+              "options": [
+                "Silent dimensional broadcasting mismatches or unhandled runtime exceptions in forward pass",
+                "Immediate hardware destruction",
+                "The model automatically converts to Java",
+                "Learning rate doubles every millisecond"
+              ],
+              "correctIndex": 0,
+              "explanation": "Mismatched dimensions can either crash at runtime or silently broadcast incorrectly, producing erroneous silent output."
+            },
+            {
+              "id": "q4-4",
+              "question": "Which optimization technique yields the highest throughput gain for this module's workload?",
+              "options": [
+                "Batch vectorization, memory pinning, and fused kernel operations",
+                "Writing nested for-loops with sleep delays",
+                "Using 128-bit quadruple precision for all tensors",
+                "Running only on single core virtual CPUs"
+              ],
+              "correctIndex": 0,
+              "explanation": "Vectorization and kernel fusion maximize arithmetic intensity and minimize memory transfer overhead."
+            },
+            {
+              "id": "q4-5",
+              "question": "What score threshold is mandated by the EISGA YUVA 2-Factor Drip Feed Engine to unlock subsequent weeks?",
+              "options": [
+                "A minimum passing score of 60% on the weekly certification assessment",
+                "20% score",
+                "100% score only with zero errors",
+                "No quiz is required"
+              ],
+              "correctIndex": 0,
+              "explanation": "The Progression Rule strictly enforces >= 60% passing score on Week X-1 quiz along with the 7-day time lock."
+            }
+          ]
+        }
+      },
+      {
+        "week": 5,
+        "level": 3,
+        "title": "Week 5: NLP & Modern Tokenization Algorithms",
+        "slug": "week-5-curriculum",
+        "durationHours": 15,
+        "overview": "Master deep technical concepts in Byte-level BPE, SentencePiece, Scaled Dot-Product & Bahdanau Attention with hands-on enterprise code implementations.",
+        "outcomes": [
+          "Deep understanding of Byte-level BPE, SentencePiece, Scaled Dot-Product & Bahdanau Attention mathematical foundations and industry best practices",
+          "Production-grade implementation with profiling, test coverage, and GPU optimization",
+          "Real-world enterprise system patterns and edge-case handling",
+          "Passing the Week 5 Technical Certification Examination"
+        ],
+        "lessons": [
+          {
+            "id": "l5-1",
+            "title": "Theoretical Foundations & Mathematical Mechanics: Byte-level BPE",
+            "duration": "48 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+            "notes": "Detailed examination of core mechanics, architectural diagrams, memory patterns, and algorithmic complexity.",
+            "codeSnippet": "# Enterprise implementation pattern for Byte-level BPE\nimport sys\nprint('Initializing module: Week 5: NLP & Modern Tokenization Algorithms')\n"
+          },
+          {
+            "id": "l5-2",
+            "title": "Hands-on Implementation & Performance Optimization",
+            "duration": "52 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+            "notes": "Step-by-step code implementation with performance profiling, cache utilization, and error handling.",
+            "codeSnippet": "# Optimized pipeline\ndef execute_accelerator():\n    print('Executing accelerated pipeline for Week 5')\n    return {'status': 'success', 'week': 5}"
+          },
+          {
+            "id": "l5-3",
+            "title": "Enterprise Architecture, Scaling & Capstone Lab",
+            "duration": "40 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+            "notes": "Integrating into distributed enterprise pipelines, telemetry monitoring, and assessment review.",
+            "codeSnippet": "# Production integration\nclass EnterprisePipeline:\n    def __init__(self):\n        self.week = 5\n        self.active = True"
+          }
+        ],
+        "quiz": {
+          "id": "quiz-w5",
+          "week": 5,
+          "title": "Week 5 Certification Assessment: NLP & Modern Tokenization Algorithms",
+          "passingScore": 60,
+          "timeLimitMinutes": 15,
+          "questions": [
+            {
+              "id": "q5-1",
+              "question": "What is the primary architectural principle governing Byte-level BPE in enterprise AI workloads?",
+              "options": [
+                "Maximizing hardware compute efficiency and minimizing memory I/O bottlenecks",
+                "Disabling floating point operations",
+                "Converting all algorithms to recursive single-threaded Python loops",
+                "Encrypting model weights in RAM"
+              ],
+              "correctIndex": 0,
+              "explanation": "Enterprise AI architectures prioritize memory bandwidth utilization (e.g. SRAM tiling, vectorization) to eliminate I/O stalls."
+            },
+            {
+              "id": "q5-2",
+              "question": "When scaling NLP & Modern Tokenization Algorithms, which evaluation metric is most critical for production reliability?",
+              "options": [
+                "Precision / Recall grounding and P95 latency guarantees",
+                "Total number of lines in the Python codebase",
+                "CSS animation frame rate",
+                "Number of comments in the code"
+              ],
+              "correctIndex": 0,
+              "explanation": "In production AI systems, accuracy/grounding combined with strict P95/P99 latency SLA defines system reliability."
+            },
+            {
+              "id": "q5-3",
+              "question": "What is the consequence of failing to validate input tensor dimensions or schema constraints?",
+              "options": [
+                "Silent dimensional broadcasting mismatches or unhandled runtime exceptions in forward pass",
+                "Immediate hardware destruction",
+                "The model automatically converts to Java",
+                "Learning rate doubles every millisecond"
+              ],
+              "correctIndex": 0,
+              "explanation": "Mismatched dimensions can either crash at runtime or silently broadcast incorrectly, producing erroneous silent output."
+            },
+            {
+              "id": "q5-4",
+              "question": "Which optimization technique yields the highest throughput gain for this module's workload?",
+              "options": [
+                "Batch vectorization, memory pinning, and fused kernel operations",
+                "Writing nested for-loops with sleep delays",
+                "Using 128-bit quadruple precision for all tensors",
+                "Running only on single core virtual CPUs"
+              ],
+              "correctIndex": 0,
+              "explanation": "Vectorization and kernel fusion maximize arithmetic intensity and minimize memory transfer overhead."
+            },
+            {
+              "id": "q5-5",
+              "question": "What score threshold is mandated by the EISGA YUVA 2-Factor Drip Feed Engine to unlock subsequent weeks?",
+              "options": [
+                "A minimum passing score of 60% on the weekly certification assessment",
+                "20% score",
+                "100% score only with zero errors",
+                "No quiz is required"
+              ],
+              "correctIndex": 0,
+              "explanation": "The Progression Rule strictly enforces >= 60% passing score on Week X-1 quiz along with the 7-day time lock."
+            }
+          ]
+        }
+      },
+      {
+        "week": 6,
+        "level": 3,
+        "title": "Week 6: Transformer Architectures: BERT, GPT & FlashAttention",
+        "slug": "week-6-curriculum",
+        "durationHours": 16,
+        "overview": "Master deep technical concepts in Rotary Embeddings (RoPE), RMSNorm, Causal Masking & FlashAttention SRAM Tiling with hands-on enterprise code implementations.",
+        "outcomes": [
+          "Deep understanding of Rotary Embeddings (RoPE), RMSNorm, Causal Masking & FlashAttention SRAM Tiling mathematical foundations and industry best practices",
+          "Production-grade implementation with profiling, test coverage, and GPU optimization",
+          "Real-world enterprise system patterns and edge-case handling",
+          "Passing the Week 6 Technical Certification Examination"
+        ],
+        "lessons": [
+          {
+            "id": "l6-1",
+            "title": "Theoretical Foundations & Mathematical Mechanics: Rotary Embeddings (RoPE)",
+            "duration": "48 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+            "notes": "Detailed examination of core mechanics, architectural diagrams, memory patterns, and algorithmic complexity.",
+            "codeSnippet": "# Enterprise implementation pattern for Rotary Embeddings (RoPE)\nimport sys\nprint('Initializing module: Week 6: Transformer Architectures: BERT, GPT & FlashAttention')\n"
+          },
+          {
+            "id": "l6-2",
+            "title": "Hands-on Implementation & Performance Optimization",
+            "duration": "52 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+            "notes": "Step-by-step code implementation with performance profiling, cache utilization, and error handling.",
+            "codeSnippet": "# Optimized pipeline\ndef execute_accelerator():\n    print('Executing accelerated pipeline for Week 6')\n    return {'status': 'success', 'week': 6}"
+          },
+          {
+            "id": "l6-3",
+            "title": "Enterprise Architecture, Scaling & Capstone Lab",
+            "duration": "40 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+            "notes": "Integrating into distributed enterprise pipelines, telemetry monitoring, and assessment review.",
+            "codeSnippet": "# Production integration\nclass EnterprisePipeline:\n    def __init__(self):\n        self.week = 6\n        self.active = True"
+          }
+        ],
+        "quiz": {
+          "id": "quiz-w6",
+          "week": 6,
+          "title": "Week 6 Certification Assessment: Transformer Architectures",
+          "passingScore": 60,
+          "timeLimitMinutes": 15,
+          "questions": [
+            {
+              "id": "q6-1",
+              "question": "What is the primary architectural principle governing Rotary Embeddings (RoPE) in enterprise AI workloads?",
+              "options": [
+                "Maximizing hardware compute efficiency and minimizing memory I/O bottlenecks",
+                "Disabling floating point operations",
+                "Converting all algorithms to recursive single-threaded Python loops",
+                "Encrypting model weights in RAM"
+              ],
+              "correctIndex": 0,
+              "explanation": "Enterprise AI architectures prioritize memory bandwidth utilization (e.g. SRAM tiling, vectorization) to eliminate I/O stalls."
+            },
+            {
+              "id": "q6-2",
+              "question": "When scaling Transformer Architectures, which evaluation metric is most critical for production reliability?",
+              "options": [
+                "Precision / Recall grounding and P95 latency guarantees",
+                "Total number of lines in the Python codebase",
+                "CSS animation frame rate",
+                "Number of comments in the code"
+              ],
+              "correctIndex": 0,
+              "explanation": "In production AI systems, accuracy/grounding combined with strict P95/P99 latency SLA defines system reliability."
+            },
+            {
+              "id": "q6-3",
+              "question": "What is the consequence of failing to validate input tensor dimensions or schema constraints?",
+              "options": [
+                "Silent dimensional broadcasting mismatches or unhandled runtime exceptions in forward pass",
+                "Immediate hardware destruction",
+                "The model automatically converts to Java",
+                "Learning rate doubles every millisecond"
+              ],
+              "correctIndex": 0,
+              "explanation": "Mismatched dimensions can either crash at runtime or silently broadcast incorrectly, producing erroneous silent output."
+            },
+            {
+              "id": "q6-4",
+              "question": "Which optimization technique yields the highest throughput gain for this module's workload?",
+              "options": [
+                "Batch vectorization, memory pinning, and fused kernel operations",
+                "Writing nested for-loops with sleep delays",
+                "Using 128-bit quadruple precision for all tensors",
+                "Running only on single core virtual CPUs"
+              ],
+              "correctIndex": 0,
+              "explanation": "Vectorization and kernel fusion maximize arithmetic intensity and minimize memory transfer overhead."
+            },
+            {
+              "id": "q6-5",
+              "question": "What score threshold is mandated by the EISGA YUVA 2-Factor Drip Feed Engine to unlock subsequent weeks?",
+              "options": [
+                "A minimum passing score of 60% on the weekly certification assessment",
+                "20% score",
+                "100% score only with zero errors",
+                "No quiz is required"
+              ],
+              "correctIndex": 0,
+              "explanation": "The Progression Rule strictly enforces >= 60% passing score on Week X-1 quiz along with the 7-day time lock."
+            }
+          ]
+        }
+      },
+      {
+        "week": 7,
+        "level": 4,
+        "title": "Week 7: Vector Databases, Dense Embeddings & Semantic Search",
+        "slug": "week-7-curriculum",
+        "durationHours": 15,
+        "overview": "Master deep technical concepts in HNSW Graph Indexing, IVF-PQ Quantization & Hybrid Reciprocal Rank Fusion with hands-on enterprise code implementations.",
+        "outcomes": [
+          "Deep understanding of HNSW Graph Indexing, IVF-PQ Quantization & Hybrid Reciprocal Rank Fusion mathematical foundations and industry best practices",
+          "Production-grade implementation with profiling, test coverage, and GPU optimization",
+          "Real-world enterprise system patterns and edge-case handling",
+          "Passing the Week 7 Technical Certification Examination"
+        ],
+        "lessons": [
+          {
+            "id": "l7-1",
+            "title": "Theoretical Foundations & Mathematical Mechanics: HNSW Graph Indexing",
+            "duration": "48 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+            "notes": "Detailed examination of core mechanics, architectural diagrams, memory patterns, and algorithmic complexity.",
+            "codeSnippet": "# Enterprise implementation pattern for HNSW Graph Indexing\nimport sys\nprint('Initializing module: Week 7: Vector Databases, Dense Embeddings & Semantic Search')\n"
+          },
+          {
+            "id": "l7-2",
+            "title": "Hands-on Implementation & Performance Optimization",
+            "duration": "52 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+            "notes": "Step-by-step code implementation with performance profiling, cache utilization, and error handling.",
+            "codeSnippet": "# Optimized pipeline\ndef execute_accelerator():\n    print('Executing accelerated pipeline for Week 7')\n    return {'status': 'success', 'week': 7}"
+          },
+          {
+            "id": "l7-3",
+            "title": "Enterprise Architecture, Scaling & Capstone Lab",
+            "duration": "40 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+            "notes": "Integrating into distributed enterprise pipelines, telemetry monitoring, and assessment review.",
+            "codeSnippet": "# Production integration\nclass EnterprisePipeline:\n    def __init__(self):\n        self.week = 7\n        self.active = True"
+          }
+        ],
+        "quiz": {
+          "id": "quiz-w7",
+          "week": 7,
+          "title": "Week 7 Certification Assessment: Vector Databases, Dense Embeddings & Semantic Search",
+          "passingScore": 60,
+          "timeLimitMinutes": 15,
+          "questions": [
+            {
+              "id": "q7-1",
+              "question": "What is the primary architectural principle governing HNSW Graph Indexing in enterprise AI workloads?",
+              "options": [
+                "Maximizing hardware compute efficiency and minimizing memory I/O bottlenecks",
+                "Disabling floating point operations",
+                "Converting all algorithms to recursive single-threaded Python loops",
+                "Encrypting model weights in RAM"
+              ],
+              "correctIndex": 0,
+              "explanation": "Enterprise AI architectures prioritize memory bandwidth utilization (e.g. SRAM tiling, vectorization) to eliminate I/O stalls."
+            },
+            {
+              "id": "q7-2",
+              "question": "When scaling Vector Databases, Dense Embeddings & Semantic Search, which evaluation metric is most critical for production reliability?",
+              "options": [
+                "Precision / Recall grounding and P95 latency guarantees",
+                "Total number of lines in the Python codebase",
+                "CSS animation frame rate",
+                "Number of comments in the code"
+              ],
+              "correctIndex": 0,
+              "explanation": "In production AI systems, accuracy/grounding combined with strict P95/P99 latency SLA defines system reliability."
+            },
+            {
+              "id": "q7-3",
+              "question": "What is the consequence of failing to validate input tensor dimensions or schema constraints?",
+              "options": [
+                "Silent dimensional broadcasting mismatches or unhandled runtime exceptions in forward pass",
+                "Immediate hardware destruction",
+                "The model automatically converts to Java",
+                "Learning rate doubles every millisecond"
+              ],
+              "correctIndex": 0,
+              "explanation": "Mismatched dimensions can either crash at runtime or silently broadcast incorrectly, producing erroneous silent output."
+            },
+            {
+              "id": "q7-4",
+              "question": "Which optimization technique yields the highest throughput gain for this module's workload?",
+              "options": [
+                "Batch vectorization, memory pinning, and fused kernel operations",
+                "Writing nested for-loops with sleep delays",
+                "Using 128-bit quadruple precision for all tensors",
+                "Running only on single core virtual CPUs"
+              ],
+              "correctIndex": 0,
+              "explanation": "Vectorization and kernel fusion maximize arithmetic intensity and minimize memory transfer overhead."
+            },
+            {
+              "id": "q7-5",
+              "question": "What score threshold is mandated by the EISGA YUVA 2-Factor Drip Feed Engine to unlock subsequent weeks?",
+              "options": [
+                "A minimum passing score of 60% on the weekly certification assessment",
+                "20% score",
+                "100% score only with zero errors",
+                "No quiz is required"
+              ],
+              "correctIndex": 0,
+              "explanation": "The Progression Rule strictly enforces >= 60% passing score on Week X-1 quiz along with the 7-day time lock."
+            }
+          ]
+        }
+      },
+      {
+        "week": 8,
+        "level": 4,
+        "title": "Week 8: Advanced Retrieval-Augmented Generation (RAG) Architectures",
+        "slug": "week-8-curriculum",
+        "durationHours": 16,
+        "overview": "Master deep technical concepts in HyDE Query Transformation, Cross-Encoder Re-Ranking & RAG Triad Evaluation with hands-on enterprise code implementations.",
+        "outcomes": [
+          "Deep understanding of HyDE Query Transformation, Cross-Encoder Re-Ranking & RAG Triad Evaluation mathematical foundations and industry best practices",
+          "Production-grade implementation with profiling, test coverage, and GPU optimization",
+          "Real-world enterprise system patterns and edge-case handling",
+          "Passing the Week 8 Technical Certification Examination"
+        ],
+        "lessons": [
+          {
+            "id": "l8-1",
+            "title": "Theoretical Foundations & Mathematical Mechanics: HyDE Query Transformation",
+            "duration": "48 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+            "notes": "Detailed examination of core mechanics, architectural diagrams, memory patterns, and algorithmic complexity.",
+            "codeSnippet": "# Enterprise implementation pattern for HyDE Query Transformation\nimport sys\nprint('Initializing module: Week 8: Advanced Retrieval-Augmented Generation (RAG) Architectures')\n"
+          },
+          {
+            "id": "l8-2",
+            "title": "Hands-on Implementation & Performance Optimization",
+            "duration": "52 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+            "notes": "Step-by-step code implementation with performance profiling, cache utilization, and error handling.",
+            "codeSnippet": "# Optimized pipeline\ndef execute_accelerator():\n    print('Executing accelerated pipeline for Week 8')\n    return {'status': 'success', 'week': 8}"
+          },
+          {
+            "id": "l8-3",
+            "title": "Enterprise Architecture, Scaling & Capstone Lab",
+            "duration": "40 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+            "notes": "Integrating into distributed enterprise pipelines, telemetry monitoring, and assessment review.",
+            "codeSnippet": "# Production integration\nclass EnterprisePipeline:\n    def __init__(self):\n        self.week = 8\n        self.active = True"
+          }
+        ],
+        "quiz": {
+          "id": "quiz-w8",
+          "week": 8,
+          "title": "Week 8 Certification Assessment: Advanced Retrieval-Augmented Generation (RAG) Architectures",
+          "passingScore": 60,
+          "timeLimitMinutes": 15,
+          "questions": [
+            {
+              "id": "q8-1",
+              "question": "What is the primary architectural principle governing HyDE Query Transformation in enterprise AI workloads?",
+              "options": [
+                "Maximizing hardware compute efficiency and minimizing memory I/O bottlenecks",
+                "Disabling floating point operations",
+                "Converting all algorithms to recursive single-threaded Python loops",
+                "Encrypting model weights in RAM"
+              ],
+              "correctIndex": 0,
+              "explanation": "Enterprise AI architectures prioritize memory bandwidth utilization (e.g. SRAM tiling, vectorization) to eliminate I/O stalls."
+            },
+            {
+              "id": "q8-2",
+              "question": "When scaling Advanced Retrieval-Augmented Generation (RAG) Architectures, which evaluation metric is most critical for production reliability?",
+              "options": [
+                "Precision / Recall grounding and P95 latency guarantees",
+                "Total number of lines in the Python codebase",
+                "CSS animation frame rate",
+                "Number of comments in the code"
+              ],
+              "correctIndex": 0,
+              "explanation": "In production AI systems, accuracy/grounding combined with strict P95/P99 latency SLA defines system reliability."
+            },
+            {
+              "id": "q8-3",
+              "question": "What is the consequence of failing to validate input tensor dimensions or schema constraints?",
+              "options": [
+                "Silent dimensional broadcasting mismatches or unhandled runtime exceptions in forward pass",
+                "Immediate hardware destruction",
+                "The model automatically converts to Java",
+                "Learning rate doubles every millisecond"
+              ],
+              "correctIndex": 0,
+              "explanation": "Mismatched dimensions can either crash at runtime or silently broadcast incorrectly, producing erroneous silent output."
+            },
+            {
+              "id": "q8-4",
+              "question": "Which optimization technique yields the highest throughput gain for this module's workload?",
+              "options": [
+                "Batch vectorization, memory pinning, and fused kernel operations",
+                "Writing nested for-loops with sleep delays",
+                "Using 128-bit quadruple precision for all tensors",
+                "Running only on single core virtual CPUs"
+              ],
+              "correctIndex": 0,
+              "explanation": "Vectorization and kernel fusion maximize arithmetic intensity and minimize memory transfer overhead."
+            },
+            {
+              "id": "q8-5",
+              "question": "What score threshold is mandated by the EISGA YUVA 2-Factor Drip Feed Engine to unlock subsequent weeks?",
+              "options": [
+                "A minimum passing score of 60% on the weekly certification assessment",
+                "20% score",
+                "100% score only with zero errors",
+                "No quiz is required"
+              ],
+              "correctIndex": 0,
+              "explanation": "The Progression Rule strictly enforces >= 60% passing score on Week X-1 quiz along with the 7-day time lock."
+            }
+          ]
+        }
+      },
+      {
+        "week": 9,
+        "level": 4,
+        "title": "Week 9: Autonomous Multi-Agent Workflows & LangGraph Orchestration",
+        "slug": "week-9-curriculum",
+        "durationHours": 18,
+        "overview": "Master deep technical concepts in LangGraph StateGraph, Tool Calling, Reducers & Human-in-the-Loop Approval with hands-on enterprise code implementations.",
+        "outcomes": [
+          "Deep understanding of LangGraph StateGraph, Tool Calling, Reducers & Human-in-the-Loop Approval mathematical foundations and industry best practices",
+          "Production-grade implementation with profiling, test coverage, and GPU optimization",
+          "Real-world enterprise system patterns and edge-case handling",
+          "Passing the Week 9 Technical Certification Examination"
+        ],
+        "lessons": [
+          {
+            "id": "l9-1",
+            "title": "Theoretical Foundations & Mathematical Mechanics: LangGraph StateGraph",
+            "duration": "48 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+            "notes": "Detailed examination of core mechanics, architectural diagrams, memory patterns, and algorithmic complexity.",
+            "codeSnippet": "# Enterprise implementation pattern for LangGraph StateGraph\nimport sys\nprint('Initializing module: Week 9: Autonomous Multi-Agent Workflows & LangGraph Orchestration')\n"
+          },
+          {
+            "id": "l9-2",
+            "title": "Hands-on Implementation & Performance Optimization",
+            "duration": "52 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+            "notes": "Step-by-step code implementation with performance profiling, cache utilization, and error handling.",
+            "codeSnippet": "# Optimized pipeline\ndef execute_accelerator():\n    print('Executing accelerated pipeline for Week 9')\n    return {'status': 'success', 'week': 9}"
+          },
+          {
+            "id": "l9-3",
+            "title": "Enterprise Architecture, Scaling & Capstone Lab",
+            "duration": "40 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+            "notes": "Integrating into distributed enterprise pipelines, telemetry monitoring, and assessment review.",
+            "codeSnippet": "# Production integration\nclass EnterprisePipeline:\n    def __init__(self):\n        self.week = 9\n        self.active = True"
+          }
+        ],
+        "quiz": {
+          "id": "quiz-w9",
+          "week": 9,
+          "title": "Week 9 Certification Assessment: Autonomous Multi-Agent Workflows & LangGraph Orchestration",
+          "passingScore": 60,
+          "timeLimitMinutes": 15,
+          "questions": [
+            {
+              "id": "q9-1",
+              "question": "What is the primary architectural principle governing LangGraph StateGraph in enterprise AI workloads?",
+              "options": [
+                "Maximizing hardware compute efficiency and minimizing memory I/O bottlenecks",
+                "Disabling floating point operations",
+                "Converting all algorithms to recursive single-threaded Python loops",
+                "Encrypting model weights in RAM"
+              ],
+              "correctIndex": 0,
+              "explanation": "Enterprise AI architectures prioritize memory bandwidth utilization (e.g. SRAM tiling, vectorization) to eliminate I/O stalls."
+            },
+            {
+              "id": "q9-2",
+              "question": "When scaling Autonomous Multi-Agent Workflows & LangGraph Orchestration, which evaluation metric is most critical for production reliability?",
+              "options": [
+                "Precision / Recall grounding and P95 latency guarantees",
+                "Total number of lines in the Python codebase",
+                "CSS animation frame rate",
+                "Number of comments in the code"
+              ],
+              "correctIndex": 0,
+              "explanation": "In production AI systems, accuracy/grounding combined with strict P95/P99 latency SLA defines system reliability."
+            },
+            {
+              "id": "q9-3",
+              "question": "What is the consequence of failing to validate input tensor dimensions or schema constraints?",
+              "options": [
+                "Silent dimensional broadcasting mismatches or unhandled runtime exceptions in forward pass",
+                "Immediate hardware destruction",
+                "The model automatically converts to Java",
+                "Learning rate doubles every millisecond"
+              ],
+              "correctIndex": 0,
+              "explanation": "Mismatched dimensions can either crash at runtime or silently broadcast incorrectly, producing erroneous silent output."
+            },
+            {
+              "id": "q9-4",
+              "question": "Which optimization technique yields the highest throughput gain for this module's workload?",
+              "options": [
+                "Batch vectorization, memory pinning, and fused kernel operations",
+                "Writing nested for-loops with sleep delays",
+                "Using 128-bit quadruple precision for all tensors",
+                "Running only on single core virtual CPUs"
+              ],
+              "correctIndex": 0,
+              "explanation": "Vectorization and kernel fusion maximize arithmetic intensity and minimize memory transfer overhead."
+            },
+            {
+              "id": "q9-5",
+              "question": "What score threshold is mandated by the EISGA YUVA 2-Factor Drip Feed Engine to unlock subsequent weeks?",
+              "options": [
+                "A minimum passing score of 60% on the weekly certification assessment",
+                "20% score",
+                "100% score only with zero errors",
+                "No quiz is required"
+              ],
+              "correctIndex": 0,
+              "explanation": "The Progression Rule strictly enforces >= 60% passing score on Week X-1 quiz along with the 7-day time lock."
+            }
+          ]
+        }
+      },
+      {
+        "week": 10,
+        "level": 5,
+        "title": "Week 10: Parameter-Efficient Fine-Tuning (PEFT): LoRA & QLoRA",
+        "slug": "week-10-curriculum",
+        "durationHours": 16,
+        "overview": "Master deep technical concepts in Low-Rank Adaptation (LoRA), 4-bit NF4 Quantization & Instruction Tuning with hands-on enterprise code implementations.",
+        "outcomes": [
+          "Deep understanding of Low-Rank Adaptation (LoRA), 4-bit NF4 Quantization & Instruction Tuning mathematical foundations and industry best practices",
+          "Production-grade implementation with profiling, test coverage, and GPU optimization",
+          "Real-world enterprise system patterns and edge-case handling",
+          "Passing the Week 10 Technical Certification Examination"
+        ],
+        "lessons": [
+          {
+            "id": "l10-1",
+            "title": "Theoretical Foundations & Mathematical Mechanics: Low-Rank Adaptation (LoRA)",
+            "duration": "48 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+            "notes": "Detailed examination of core mechanics, architectural diagrams, memory patterns, and algorithmic complexity.",
+            "codeSnippet": "# Enterprise implementation pattern for Low-Rank Adaptation (LoRA)\nimport sys\nprint('Initializing module: Week 10: Parameter-Efficient Fine-Tuning (PEFT): LoRA & QLoRA')\n"
+          },
+          {
+            "id": "l10-2",
+            "title": "Hands-on Implementation & Performance Optimization",
+            "duration": "52 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+            "notes": "Step-by-step code implementation with performance profiling, cache utilization, and error handling.",
+            "codeSnippet": "# Optimized pipeline\ndef execute_accelerator():\n    print('Executing accelerated pipeline for Week 10')\n    return {'status': 'success', 'week': 10}"
+          },
+          {
+            "id": "l10-3",
+            "title": "Enterprise Architecture, Scaling & Capstone Lab",
+            "duration": "40 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+            "notes": "Integrating into distributed enterprise pipelines, telemetry monitoring, and assessment review.",
+            "codeSnippet": "# Production integration\nclass EnterprisePipeline:\n    def __init__(self):\n        self.week = 10\n        self.active = True"
+          }
+        ],
+        "quiz": {
+          "id": "quiz-w10",
+          "week": 10,
+          "title": "Week 10 Certification Assessment: Parameter-Efficient Fine-Tuning (PEFT)",
+          "passingScore": 60,
+          "timeLimitMinutes": 15,
+          "questions": [
+            {
+              "id": "q10-1",
+              "question": "What is the primary architectural principle governing Low-Rank Adaptation (LoRA) in enterprise AI workloads?",
+              "options": [
+                "Maximizing hardware compute efficiency and minimizing memory I/O bottlenecks",
+                "Disabling floating point operations",
+                "Converting all algorithms to recursive single-threaded Python loops",
+                "Encrypting model weights in RAM"
+              ],
+              "correctIndex": 0,
+              "explanation": "Enterprise AI architectures prioritize memory bandwidth utilization (e.g. SRAM tiling, vectorization) to eliminate I/O stalls."
+            },
+            {
+              "id": "q10-2",
+              "question": "When scaling Parameter-Efficient Fine-Tuning (PEFT), which evaluation metric is most critical for production reliability?",
+              "options": [
+                "Precision / Recall grounding and P95 latency guarantees",
+                "Total number of lines in the Python codebase",
+                "CSS animation frame rate",
+                "Number of comments in the code"
+              ],
+              "correctIndex": 0,
+              "explanation": "In production AI systems, accuracy/grounding combined with strict P95/P99 latency SLA defines system reliability."
+            },
+            {
+              "id": "q10-3",
+              "question": "What is the consequence of failing to validate input tensor dimensions or schema constraints?",
+              "options": [
+                "Silent dimensional broadcasting mismatches or unhandled runtime exceptions in forward pass",
+                "Immediate hardware destruction",
+                "The model automatically converts to Java",
+                "Learning rate doubles every millisecond"
+              ],
+              "correctIndex": 0,
+              "explanation": "Mismatched dimensions can either crash at runtime or silently broadcast incorrectly, producing erroneous silent output."
+            },
+            {
+              "id": "q10-4",
+              "question": "Which optimization technique yields the highest throughput gain for this module's workload?",
+              "options": [
+                "Batch vectorization, memory pinning, and fused kernel operations",
+                "Writing nested for-loops with sleep delays",
+                "Using 128-bit quadruple precision for all tensors",
+                "Running only on single core virtual CPUs"
+              ],
+              "correctIndex": 0,
+              "explanation": "Vectorization and kernel fusion maximize arithmetic intensity and minimize memory transfer overhead."
+            },
+            {
+              "id": "q10-5",
+              "question": "What score threshold is mandated by the EISGA YUVA 2-Factor Drip Feed Engine to unlock subsequent weeks?",
+              "options": [
+                "A minimum passing score of 60% on the weekly certification assessment",
+                "20% score",
+                "100% score only with zero errors",
+                "No quiz is required"
+              ],
+              "correctIndex": 0,
+              "explanation": "The Progression Rule strictly enforces >= 60% passing score on Week X-1 quiz along with the 7-day time lock."
+            }
+          ]
+        }
+      },
+      {
+        "week": 11,
+        "level": 5,
+        "title": "Week 11: High-Throughput Inference Serving: vLLM & PagedAttention",
+        "slug": "week-11-curriculum",
+        "durationHours": 16,
+        "overview": "Master deep technical concepts in PagedAttention Virtual Memory, Continuous Batching & Speculative Decoding with hands-on enterprise code implementations.",
+        "outcomes": [
+          "Deep understanding of PagedAttention Virtual Memory, Continuous Batching & Speculative Decoding mathematical foundations and industry best practices",
+          "Production-grade implementation with profiling, test coverage, and GPU optimization",
+          "Real-world enterprise system patterns and edge-case handling",
+          "Passing the Week 11 Technical Certification Examination"
+        ],
+        "lessons": [
+          {
+            "id": "l11-1",
+            "title": "Theoretical Foundations & Mathematical Mechanics: PagedAttention Virtual Memory",
+            "duration": "48 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+            "notes": "Detailed examination of core mechanics, architectural diagrams, memory patterns, and algorithmic complexity.",
+            "codeSnippet": "# Enterprise implementation pattern for PagedAttention Virtual Memory\nimport sys\nprint('Initializing module: Week 11: High-Throughput Inference Serving: vLLM & PagedAttention')\n"
+          },
+          {
+            "id": "l11-2",
+            "title": "Hands-on Implementation & Performance Optimization",
+            "duration": "52 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+            "notes": "Step-by-step code implementation with performance profiling, cache utilization, and error handling.",
+            "codeSnippet": "# Optimized pipeline\ndef execute_accelerator():\n    print('Executing accelerated pipeline for Week 11')\n    return {'status': 'success', 'week': 11}"
+          },
+          {
+            "id": "l11-3",
+            "title": "Enterprise Architecture, Scaling & Capstone Lab",
+            "duration": "40 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+            "notes": "Integrating into distributed enterprise pipelines, telemetry monitoring, and assessment review.",
+            "codeSnippet": "# Production integration\nclass EnterprisePipeline:\n    def __init__(self):\n        self.week = 11\n        self.active = True"
+          }
+        ],
+        "quiz": {
+          "id": "quiz-w11",
+          "week": 11,
+          "title": "Week 11 Certification Assessment: High-Throughput Inference Serving",
+          "passingScore": 60,
+          "timeLimitMinutes": 15,
+          "questions": [
+            {
+              "id": "q11-1",
+              "question": "What is the primary architectural principle governing PagedAttention Virtual Memory in enterprise AI workloads?",
+              "options": [
+                "Maximizing hardware compute efficiency and minimizing memory I/O bottlenecks",
+                "Disabling floating point operations",
+                "Converting all algorithms to recursive single-threaded Python loops",
+                "Encrypting model weights in RAM"
+              ],
+              "correctIndex": 0,
+              "explanation": "Enterprise AI architectures prioritize memory bandwidth utilization (e.g. SRAM tiling, vectorization) to eliminate I/O stalls."
+            },
+            {
+              "id": "q11-2",
+              "question": "When scaling High-Throughput Inference Serving, which evaluation metric is most critical for production reliability?",
+              "options": [
+                "Precision / Recall grounding and P95 latency guarantees",
+                "Total number of lines in the Python codebase",
+                "CSS animation frame rate",
+                "Number of comments in the code"
+              ],
+              "correctIndex": 0,
+              "explanation": "In production AI systems, accuracy/grounding combined with strict P95/P99 latency SLA defines system reliability."
+            },
+            {
+              "id": "q11-3",
+              "question": "What is the consequence of failing to validate input tensor dimensions or schema constraints?",
+              "options": [
+                "Silent dimensional broadcasting mismatches or unhandled runtime exceptions in forward pass",
+                "Immediate hardware destruction",
+                "The model automatically converts to Java",
+                "Learning rate doubles every millisecond"
+              ],
+              "correctIndex": 0,
+              "explanation": "Mismatched dimensions can either crash at runtime or silently broadcast incorrectly, producing erroneous silent output."
+            },
+            {
+              "id": "q11-4",
+              "question": "Which optimization technique yields the highest throughput gain for this module's workload?",
+              "options": [
+                "Batch vectorization, memory pinning, and fused kernel operations",
+                "Writing nested for-loops with sleep delays",
+                "Using 128-bit quadruple precision for all tensors",
+                "Running only on single core virtual CPUs"
+              ],
+              "correctIndex": 0,
+              "explanation": "Vectorization and kernel fusion maximize arithmetic intensity and minimize memory transfer overhead."
+            },
+            {
+              "id": "q11-5",
+              "question": "What score threshold is mandated by the EISGA YUVA 2-Factor Drip Feed Engine to unlock subsequent weeks?",
+              "options": [
+                "A minimum passing score of 60% on the weekly certification assessment",
+                "20% score",
+                "100% score only with zero errors",
+                "No quiz is required"
+              ],
+              "correctIndex": 0,
+              "explanation": "The Progression Rule strictly enforces >= 60% passing score on Week X-1 quiz along with the 7-day time lock."
+            }
+          ]
+        }
+      },
+      {
+        "week": 12,
+        "level": 5,
+        "title": "Week 12: Production Capstone: Autonomous Enterprise AI System & Defense",
+        "slug": "week-12-curriculum",
+        "durationHours": 24,
+        "overview": "Master deep technical concepts in End-to-End GenAI Architecture, Prompt Defense, NeMo Guardrails & Capstone Defense with hands-on enterprise code implementations.",
+        "outcomes": [
+          "Deep understanding of End-to-End GenAI Architecture, Prompt Defense, NeMo Guardrails & Capstone Defense mathematical foundations and industry best practices",
+          "Production-grade implementation with profiling, test coverage, and GPU optimization",
+          "Real-world enterprise system patterns and edge-case handling",
+          "Passing the Week 12 Technical Certification Examination"
+        ],
+        "lessons": [
+          {
+            "id": "l12-1",
+            "title": "Theoretical Foundations & Mathematical Mechanics: End-to-End GenAI Architecture",
+            "duration": "48 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+            "notes": "Detailed examination of core mechanics, architectural diagrams, memory patterns, and algorithmic complexity.",
+            "codeSnippet": "# Enterprise implementation pattern for End-to-End GenAI Architecture\nimport sys\nprint('Initializing module: Week 12: Production Capstone: Autonomous Enterprise AI System & Defense')\n"
+          },
+          {
+            "id": "l12-2",
+            "title": "Hands-on Implementation & Performance Optimization",
+            "duration": "52 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+            "notes": "Step-by-step code implementation with performance profiling, cache utilization, and error handling.",
+            "codeSnippet": "# Optimized pipeline\ndef execute_accelerator():\n    print('Executing accelerated pipeline for Week 12')\n    return {'status': 'success', 'week': 12}"
+          },
+          {
+            "id": "l12-3",
+            "title": "Enterprise Architecture, Scaling & Capstone Lab",
+            "duration": "40 mins",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+            "notes": "Integrating into distributed enterprise pipelines, telemetry monitoring, and assessment review.",
+            "codeSnippet": "# Production integration\nclass EnterprisePipeline:\n    def __init__(self):\n        self.week = 12\n        self.active = True"
+          }
+        ],
+        "quiz": {
+          "id": "quiz-w12",
+          "week": 12,
+          "title": "Week 12 Certification Assessment: Production Capstone",
+          "passingScore": 60,
+          "timeLimitMinutes": 15,
+          "questions": [
+            {
+              "id": "q12-1",
+              "question": "What is the primary architectural principle governing End-to-End GenAI Architecture in enterprise AI workloads?",
+              "options": [
+                "Maximizing hardware compute efficiency and minimizing memory I/O bottlenecks",
+                "Disabling floating point operations",
+                "Converting all algorithms to recursive single-threaded Python loops",
+                "Encrypting model weights in RAM"
+              ],
+              "correctIndex": 0,
+              "explanation": "Enterprise AI architectures prioritize memory bandwidth utilization (e.g. SRAM tiling, vectorization) to eliminate I/O stalls."
+            },
+            {
+              "id": "q12-2",
+              "question": "When scaling Production Capstone, which evaluation metric is most critical for production reliability?",
+              "options": [
+                "Precision / Recall grounding and P95 latency guarantees",
+                "Total number of lines in the Python codebase",
+                "CSS animation frame rate",
+                "Number of comments in the code"
+              ],
+              "correctIndex": 0,
+              "explanation": "In production AI systems, accuracy/grounding combined with strict P95/P99 latency SLA defines system reliability."
+            },
+            {
+              "id": "q12-3",
+              "question": "What is the consequence of failing to validate input tensor dimensions or schema constraints?",
+              "options": [
+                "Silent dimensional broadcasting mismatches or unhandled runtime exceptions in forward pass",
+                "Immediate hardware destruction",
+                "The model automatically converts to Java",
+                "Learning rate doubles every millisecond"
+              ],
+              "correctIndex": 0,
+              "explanation": "Mismatched dimensions can either crash at runtime or silently broadcast incorrectly, producing erroneous silent output."
+            },
+            {
+              "id": "q12-4",
+              "question": "Which optimization technique yields the highest throughput gain for this module's workload?",
+              "options": [
+                "Batch vectorization, memory pinning, and fused kernel operations",
+                "Writing nested for-loops with sleep delays",
+                "Using 128-bit quadruple precision for all tensors",
+                "Running only on single core virtual CPUs"
+              ],
+              "correctIndex": 0,
+              "explanation": "Vectorization and kernel fusion maximize arithmetic intensity and minimize memory transfer overhead."
+            },
+            {
+              "id": "q12-5",
+              "question": "What score threshold is mandated by the EISGA YUVA 2-Factor Drip Feed Engine to unlock subsequent weeks?",
+              "options": [
+                "A minimum passing score of 60% on the weekly certification assessment",
+                "20% score",
+                "100% score only with zero errors",
+                "No quiz is required"
+              ],
+              "correctIndex": 0,
+              "explanation": "The Progression Rule strictly enforces >= 60% passing score on Week X-1 quiz along with the 7-day time lock."
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
