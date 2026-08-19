@@ -11,8 +11,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "EISGA YUVA AI Accelerator | Enterprise EdTech SaaS",
-  description: "India's Premier Enterprise AI & Generative AI Mastery Fellowship featuring RBAC, Manual UPI Verification, and Two-Factor Drip Feed Curriculum Engine.",
+  title: "EISGA YUVA FOUNDATION | Enterprise AI & Technology Learning Platform",
+  description: "EISGA YUVA FOUNDATION (a section 8 non-profit company registered with Ministry of Finance, Government of India) CIN: U88900DL2025NPL445748. AI & Tech Mastery Fellowship.",
 };
 
 export default function RootLayout({

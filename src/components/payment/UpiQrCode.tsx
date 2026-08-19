@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 import { QrCode, ShieldCheck, Copy, Check } from 'lucide-react';
 
 interface UpiQrCodeProps {
@@ -14,7 +15,7 @@ export function UpiQrCode({
   amount,
   levelName,
   upiId = 'eisga.yuva@icici',
-  merchantName = 'EISGA YUVA AI ACCELERATOR'
+  merchantName = 'EISGA YUVA FOUNDATION (Section 8 Non-Profit Co.)'
 }: UpiQrCodeProps) {
   const [copied, setCopied] = React.useState(false);
 
@@ -30,6 +31,16 @@ export function UpiQrCode({
       <div className="flex items-center space-x-2 text-xs font-semibold text-emerald-400 bg-emerald-950/60 px-3 py-1 rounded-full border border-emerald-500/30 mb-3">
         <ShieldCheck className="w-3.5 h-3.5" />
         <span>Official NPCI UPI Verified Merchant</span>
+      </div>
+
+      <div className="w-12 h-12 rounded-xl bg-white p-1 mx-auto flex items-center justify-center border border-indigo-300 mb-2">
+        <Image
+          src="/eisga-logo.png"
+          alt="EISGA Logo"
+          width={40}
+          height={40}
+          className="object-contain w-full h-full"
+        />
       </div>
 
       <h3 className="font-extrabold text-sm text-slate-100">{merchantName}</h3>
@@ -98,10 +109,16 @@ export function UpiQrCode({
             <rect x="150" y="180" width="20" height="10" fill="#0f172a" rx="2" />
           </svg>
 
-          {/* Centered YUVA Logo Badge */}
+          {/* Centered EISGA Logo Badge */}
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-            <div className="bg-[#1e1b4b] text-emerald-400 font-extrabold text-[9px] px-1.5 py-0.5 rounded shadow border border-emerald-400">
-              YUVA
+            <div className="bg-white p-0.5 rounded-lg shadow-md border-2 border-[#1e1b4b] w-8 h-8 flex items-center justify-center">
+              <Image
+                src="/eisga-logo.png"
+                alt="EISGA Emblem"
+                width={26}
+                height={26}
+                className="object-contain"
+              />
             </div>
           </div>
         </div>

@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/context/AuthContext';
 import { useCurriculum } from '@/context/CurriculumContext';
@@ -46,17 +47,22 @@ export default function LandingPage() {
       {/* Top Corporate Navigation */}
       <header className="h-20 bg-[#1e1b4b] border-b border-indigo-900/60 px-6 md:px-12 flex items-center justify-between sticky top-0 z-40 shadow-xl">
         <div className="flex items-center space-x-4">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-500 via-indigo-600 to-emerald-400 p-0.5 shadow-lg shadow-indigo-950/50 flex items-center justify-center">
-            <div className="w-full h-full bg-[#1e1b4b] rounded-[10px] flex items-center justify-center">
-              <Sparkles className="w-5 h-5 text-emerald-400" />
-            </div>
+          <div className="w-12 h-12 rounded-xl bg-white p-1 shadow-lg shadow-indigo-950/50 flex items-center justify-center border border-indigo-200">
+            <Image
+              src="/eisga-logo.png"
+              alt="EISGA Logo"
+              width={44}
+              height={44}
+              className="object-contain w-full h-full"
+              priority
+            />
           </div>
           <div>
             <div className="flex items-center space-x-1.5">
-              <span className="font-black text-base text-white tracking-wider">EISGA</span>
-              <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-emerald-500 text-slate-950">YUVA</span>
+              <span className="font-black text-base text-white tracking-wider">EISGA YUVA</span>
+              <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-emerald-500 text-slate-950">FOUNDATION</span>
             </div>
-            <p className="text-[11px] text-indigo-300 font-semibold tracking-tight">AI Accelerator SaaS</p>
+            <p className="text-[10px] text-indigo-300 font-semibold tracking-tight">Section 8 Non-Profit Co. | Ministry of Finance, GoI</p>
           </div>
         </div>
 
@@ -86,15 +92,15 @@ export default function LandingPage() {
         <div className="max-w-5xl mx-auto text-center space-y-6 relative z-10">
           <div className="inline-flex items-center space-x-2 bg-emerald-500/10 border border-emerald-500/30 px-4 py-1.5 rounded-full text-emerald-300 text-xs font-bold shadow-inner">
             <ShieldCheck className="w-4 h-4 text-emerald-400" />
-            <span>Enterprise-Grade EdTech SaaS Platform Rivaling UpGrad</span>
+            <span>CIN - U88900DL2025NPL445748 | Ministry of Finance, Govt. of India Registered</span>
           </div>
 
           <h1 className="text-3xl sm:text-5xl md:text-6xl font-black tracking-tight text-white leading-tight">
-            EISGA YUVA <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400">AI Accelerator</span>
+            EISGA YUVA <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400">FOUNDATION</span>
           </h1>
 
           <p className="text-sm sm:text-base md:text-lg text-indigo-200/90 max-w-3xl mx-auto leading-relaxed font-medium">
-            India&apos;s premier fellowship in Computational AI, Neural Architectures, LangGraph Multi-Agents, and Enterprise vLLM Deployment. Featuring <strong className="text-white">Strict 2-Factor Drip-Feed Gating</strong> and <strong className="text-white">Manual UPI Clearinghouse Loop</strong>.
+            A Section 8 non-profit company dedicated to national youth empowerment in Computational AI, Neural Architectures, LangGraph Multi-Agents, and Enterprise vLLM Systems. Featuring <strong className="text-white">Strict 2-Factor Drip-Feed Gating</strong> and <strong className="text-white">Manual UPI Clearinghouse Loop</strong>.
           </p>
 
           {/* Persona Launch Matrix (Interactive Quick Switcher) */}
@@ -342,15 +348,65 @@ export default function LandingPage() {
 
       {/* Footer */}
       <footer className="bg-[#1e1b4b] text-indigo-300 py-12 px-6 md:px-12 border-t border-indigo-900/60 text-xs">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center space-x-3">
-            <span className="font-extrabold text-white text-sm">EISGA YUVA AI Accelerator</span>
-            <span className="text-indigo-400">|</span>
-            <span>Enterprise EdTech SaaS</span>
+        <div className="max-w-7xl mx-auto space-y-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pb-8 border-b border-indigo-900/50">
+            {/* Column 1: Organization Details */}
+            <div className="space-y-3">
+              <div className="flex items-center space-x-3">
+                <div className="w-10 h-10 rounded-lg bg-white p-0.5 flex items-center justify-center border border-indigo-200">
+                  <Image
+                    src="/eisga-logo.png"
+                    alt="EISGA Logo"
+                    width={36}
+                    height={36}
+                    className="object-contain"
+                  />
+                </div>
+                <span className="font-extrabold text-white text-base">EISGA YUVA FOUNDATION</span>
+              </div>
+              <p className="text-indigo-200/90 text-xs leading-relaxed">
+                (A Section 8 non-profit company registered with Ministry of Finance, Government of India)
+              </p>
+              <div className="inline-block bg-indigo-950 px-3 py-1.5 rounded-lg border border-indigo-800/80 font-mono text-[11px] text-emerald-400 font-bold">
+                CIN: U88900DL2025NPL445748
+              </div>
+            </div>
+
+            {/* Column 2: Offices & Address */}
+            <div className="space-y-3 text-indigo-200/90">
+              <h4 className="font-bold text-white uppercase text-[11px] tracking-wider text-emerald-400">Offices & Headquarters</h4>
+              <div>
+                <strong className="text-white block text-xs">Registered Office:</strong>
+                <p className="text-[11px] text-indigo-300">W09/B-78, Chunna Bhatti, Kirti Nagar, New Delhi, 110015</p>
+              </div>
+              <div className="pt-1">
+                <strong className="text-white block text-xs">National Headquarter:</strong>
+                <p className="text-[11px] text-indigo-300">GROUND FLOOR, A-82, Block T, Om Vihar, Uttam Nagar, Delhi, 110059</p>
+              </div>
+            </div>
+
+            {/* Column 3: Direct Contact */}
+            <div className="space-y-3 text-indigo-200/90">
+              <h4 className="font-bold text-white uppercase text-[11px] tracking-wider text-emerald-400">Official Contact & Support</h4>
+              <div className="space-y-1.5">
+                <p className="text-xs">
+                  <span className="text-indigo-400">Email:</span>{' '}
+                  <a href="mailto:eisga.myindia@gmail.com" className="text-white hover:text-emerald-400 font-medium underline">
+                    eisga.myindia@gmail.com
+                  </a>
+                </p>
+                <p className="text-xs">
+                  <span className="text-indigo-400">Mobile:</span>{' '}
+                  <span className="text-white font-medium">+91 8700302928, +91 9999859069</span>
+                </p>
+              </div>
+            </div>
           </div>
-          <p className="text-indigo-400">
-            © 2026 EISGA YUVA AI. Built with Next.js App Router, Tailwind CSS, Firebase, and NPCI UPI Gateway.
-          </p>
+
+          <div className="flex flex-col sm:flex-row items-center justify-between text-[11px] text-indigo-400 gap-2">
+            <p>© 2026 EISGA YUVA FOUNDATION. All rights reserved.</p>
+            <p>Empowering Indian Youth with Advanced Computational & Generative AI Mastery.</p>
+          </div>
         </div>
       </footer>
 

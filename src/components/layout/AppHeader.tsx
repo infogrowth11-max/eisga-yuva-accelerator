@@ -40,7 +40,7 @@ export function AppHeader() {
           <div>
             <div className="flex items-center space-x-2">
               <h1 className="text-sm font-bold text-slate-900 tracking-tight">
-                EISGA YUVA AI Accelerator
+                EISGA YUVA FOUNDATION
               </h1>
               <span className="text-[11px] font-semibold text-slate-400">/</span>
               <span className="text-xs font-semibold text-indigo-700 bg-indigo-50 px-2 py-0.5 rounded-md border border-indigo-100">

@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { useAuth } from '@/context/AuthContext';
 import {
@@ -98,17 +99,21 @@ export function AppSidebar() {
       {/* Brand Header */}
       <div className="p-5 border-b border-indigo-900/60 flex items-center justify-between">
         <Link href="/" className="flex items-center space-x-3 group">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-500 via-indigo-600 to-emerald-400 p-0.5 shadow-lg shadow-indigo-950/50 flex items-center justify-center">
-            <div className="w-full h-full bg-[#1e1b4b] rounded-[10px] flex items-center justify-center">
-              <Sparkles className="w-5 h-5 text-emerald-400 group-hover:scale-110 transition-transform" />
-            </div>
+          <div className="w-11 h-11 rounded-xl bg-white p-1 shadow-lg shadow-indigo-950/50 flex items-center justify-center border border-indigo-300 flex-shrink-0">
+            <Image
+              src="/eisga-logo.png"
+              alt="EISGA Logo"
+              width={38}
+              height={38}
+              className="object-contain w-full h-full group-hover:scale-105 transition-transform"
+            />
           </div>
           <div>
             <div className="flex items-center space-x-1.5">
-              <span className="font-extrabold text-sm tracking-wider text-white">EISGA</span>
-              <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">YUVA</span>
+              <span className="font-extrabold text-sm tracking-wider text-white">EISGA YUVA</span>
+              <span className="text-[9px] font-bold px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">FOUNDATION</span>
             </div>
-            <p className="text-[11px] text-slate-400 font-medium tracking-tight">AI Accelerator SaaS</p>
+            <p className="text-[10px] text-slate-400 font-medium tracking-tight">Section 8 Non-Profit</p>
           </div>
         </Link>
       </div>

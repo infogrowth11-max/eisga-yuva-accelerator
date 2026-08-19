@@ -160,7 +160,7 @@ export function CheckoutModal({ isOpen, onClose, initialLevel = 2 }: CheckoutMod
           <div className="p-6 md:p-8">
             <div className="border-b border-slate-100 pb-5 mb-6">
               <span className="text-xs font-bold uppercase tracking-wider text-indigo-600 bg-indigo-50 px-2.5 py-1 rounded-md border border-indigo-100">
-                EISGA YUVA AI Financial Portal
+                EISGA YUVA FOUNDATION (Section 8 Non-Profit)
               </span>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 mt-2">
                 Level Enrollment & Manual UPI Verification

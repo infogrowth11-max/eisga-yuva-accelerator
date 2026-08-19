@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 import { IssuedCertificate } from '@/lib/certificateService';
 import { X, Download, Printer, ShieldCheck, Award, Sparkles, CheckCircle2, ExternalLink } from 'lucide-react';
 import Link from 'next/link';
@@ -72,12 +73,24 @@ export function CertificateViewerModal({ isOpen, onClose, certificate }: Certifi
 
               {/* Certificate Header */}
               <div className="text-center space-y-2">
-                <div className="inline-flex items-center space-x-2 bg-indigo-50 px-3.5 py-1 rounded-full border border-indigo-200 text-indigo-900 text-xs font-bold uppercase tracking-widest">
-                  <Sparkles className="w-3.5 h-3.5 text-indigo-600" />
-                  <span>EISGA YUVA AI ACCELERATOR FELLOWSHIP</span>
+                <div className="w-16 h-16 rounded-2xl bg-white p-1 mx-auto flex items-center justify-center border-2 border-indigo-200 shadow-sm mb-2">
+                  <Image
+                    src="/eisga-logo.png"
+                    alt="EISGA Logo"
+                    width={56}
+                    height={56}
+                    className="object-contain w-full h-full"
+                  />
                 </div>
+                <div className="inline-flex items-center space-x-2 bg-indigo-50 px-4 py-1 rounded-full border border-indigo-200 text-indigo-900 text-xs font-bold uppercase tracking-widest">
+                  <span>EISGA YUVA FOUNDATION</span>
+                </div>
+                <p className="text-[10px] text-slate-600 font-medium max-w-xl mx-auto">
+                  A Section 8 Non-Profit Company Registered with Ministry of Finance, Government of India<br />
+                  <span className="font-mono text-slate-700 font-bold">CIN: U88900DL2025NPL445748</span>
+                </p>
 
-                <h1 className="text-2xl sm:text-4xl font-serif font-black text-[#1e1b4b] tracking-tight pt-2">
+                <h1 className="text-2xl sm:text-4xl font-serif font-black text-[#1e1b4b] tracking-tight pt-1">
                   Certificate of Technical Mastery
                 </h1>
                 <p className="text-xs text-slate-500 font-sans tracking-wider uppercase">

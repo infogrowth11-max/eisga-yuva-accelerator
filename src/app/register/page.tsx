@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/context/AuthContext';
 import { Sparkles, User, Mail, Lock, Phone, ArrowRight, Loader2 } from 'lucide-react';
@@ -29,16 +30,24 @@ export default function RegisterPage() {
     <div className="min-h-screen bg-gradient-to-b from-[#1e1b4b] via-indigo-950 to-slate-900 flex items-center justify-center p-6 text-slate-900">
       <div className="bg-white rounded-3xl shadow-2xl border border-slate-200 w-full max-w-md p-8 space-y-6">
         <div className="text-center space-y-2">
-          <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-indigo-600 to-emerald-400 p-0.5 mx-auto flex items-center justify-center shadow-lg shadow-indigo-950/40">
-            <div className="w-full h-full bg-[#1e1b4b] rounded-[14px] flex items-center justify-center">
-              <Sparkles className="w-6 h-6 text-emerald-400" />
-            </div>
+          <div className="w-16 h-16 rounded-2xl bg-white p-1.5 mx-auto flex items-center justify-center shadow-lg shadow-indigo-950/20 border-2 border-indigo-200">
+            <Image
+              src="/eisga-logo.png"
+              alt="EISGA Logo"
+              width={56}
+              height={56}
+              className="object-contain w-full h-full"
+              priority
+            />
           </div>
           <h2 className="text-2xl font-black text-slate-900 tracking-tight">
             Register Candidate
           </h2>
-          <p className="text-xs text-slate-500">
-            Join the EISGA YUVA AI Accelerator Fellowship
+          <p className="text-xs font-semibold text-slate-700">
+            EISGA YUVA FOUNDATION Fellowship
+          </p>
+          <p className="text-[10px] text-slate-500">
+            (Section 8 Non-Profit Company | Ministry of Finance, GoI | CIN: U88900DL2025NPL445748)
           </p>
         </div>
 
@@ -101,6 +110,11 @@ export default function RegisterPage() {
           <Link href="/login" className="text-indigo-600 font-bold hover:underline">
             Sign In
           </Link>
+        </div>
+
+        <div className="pt-3 border-t border-slate-100 text-center text-[10px] text-slate-400 space-y-1">
+          <p>National HQ: GROUND FLOOR, A-82, Block T, Om Vihar, Uttam Nagar, Delhi, 110059</p>
+          <p>Support: eisga.myindia@gmail.com | +91 8700302928, 9999859069</p>
         </div>
       </div>
     </div>

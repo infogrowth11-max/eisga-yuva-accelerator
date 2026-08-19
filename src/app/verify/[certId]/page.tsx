@@ -2,6 +2,7 @@
 
 import React, { use } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import {
   ShieldCheck,
   Award,
@@ -38,10 +39,16 @@ export default function VerifyCertificatePage({ params }: VerifyPageProps) {
       {/* Top Header */}
       <header className="h-16 bg-[#1e1b4b] border-b border-indigo-900 px-6 md:px-12 flex items-center justify-between shadow-lg">
         <Link href="/" className="flex items-center space-x-3">
-          <div className="w-8 h-8 rounded-lg bg-emerald-400 text-slate-950 flex items-center justify-center font-black">
-            <Sparkles className="w-4 h-4" />
+          <div className="w-10 h-10 rounded-xl bg-white p-1 flex items-center justify-center border border-indigo-300">
+            <Image
+              src="/eisga-logo.png"
+              alt="EISGA Logo"
+              width={34}
+              height={34}
+              className="object-contain w-full h-full"
+            />
           </div>
-          <span className="font-black text-white text-sm tracking-wider">EISGA YUVA AI ACCELERATOR</span>
+          <span className="font-black text-white text-sm tracking-wider">EISGA YUVA FOUNDATION</span>
         </Link>
 
         <span className="text-xs text-emerald-400 font-bold bg-emerald-950/60 border border-emerald-500/30 px-3 py-1 rounded-full flex items-center space-x-1.5">
@@ -62,7 +69,7 @@ export default function VerifyCertificatePage({ params }: VerifyPageProps) {
               Cryptographically Verified Credential
             </h1>
             <p className="text-xs font-semibold text-emerald-950/80 mt-0.5">
-              This technical certification is authentic and verified on the EISGA YUVA immutable academic ledger.
+              Authentic credential issued by EISGA YUVA FOUNDATION (Section 8 Non-Profit Company | CIN: U88900DL2025NPL445748).
             </p>
           </div>
         </div>
@@ -76,7 +83,8 @@ export default function VerifyCertificatePage({ params }: VerifyPageProps) {
             </div>
             <div>
               <span className="text-[10px] uppercase font-bold text-slate-400">Issuing Body</span>
-              <p className="text-xs font-bold text-slate-900">EISGA YUVA AI Fellowship Board</p>
+              <p className="text-xs font-bold text-slate-900">EISGA YUVA FOUNDATION</p>
+              <p className="text-[10px] text-slate-500">Ministry of Finance, Govt. of India Registered</p>
             </div>
           </div>
 
@@ -118,15 +126,21 @@ export default function VerifyCertificatePage({ params }: VerifyPageProps) {
           </div>
         </div>
 
-        {/* Explore CTA */}
-        <div className="text-center pt-4">
+        {/* Explore CTA & Office Details */}
+        <div className="text-center pt-4 space-y-4">
           <Link
             href="/"
             className="inline-flex items-center space-x-2 text-xs font-bold text-indigo-600 hover:text-indigo-800"
           >
-            <span>Learn more about the EISGA YUVA AI Fellowship</span>
+            <span>Learn more about EISGA YUVA FOUNDATION</span>
             <ArrowRight className="w-4 h-4" />
           </Link>
+
+          <div className="text-[10px] text-slate-500 space-y-1 pt-2 border-t border-slate-200">
+            <p><strong>EISGA YUVA FOUNDATION</strong> (a section 8 non-profit company registered with Ministry of Finance, Government of India)</p>
+            <p>CIN: U88900DL2025NPL445748 | Email: eisga.myindia@gmail.com | Mob: +91 8700302928, 9999859069</p>
+            <p>National HQ: GROUND FLOOR, A-82, Block T, Om Vihar, Uttam Nagar, Delhi, 110059</p>
+          </div>
         </div>
       </main>
     </div>
